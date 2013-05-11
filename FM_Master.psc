@@ -102,6 +102,6 @@ endEvent
 ; Changes value representing relationship between wolves and the vampires. It does 
 ; not actually change the relatonship until update() is called
 Event setVampireRelationship(int x)
-	update()
+	vampireRelationship = x
 endEvent
 
