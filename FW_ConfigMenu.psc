@@ -170,8 +170,6 @@ event OnPageReset(string a_page)
 	werewolfRelationship_OID_S = addSliderOption("Werewolf Relationship", 3.0, "{0}")
 	AddEmptyOption()
 
-	SetCursorFillMode(LEFT_TO_RIGHT)
-	AddEmptyOption()
 	AddHeaderOption("OTHER")
 	SetCursorFillMode(TOP_TO_BOTTOM)
 	restoreDefaults_OID_T = addTextOption("Restore Defaults","")
