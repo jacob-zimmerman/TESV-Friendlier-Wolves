@@ -171,7 +171,6 @@ event OnPageReset(string a_page)
 	AddEmptyOption()
 
 	AddHeaderOption("OTHER")
-	SetCursorFillMode(TOP_TO_BOTTOM)
 	restoreDefaults_OID_T = addTextOption("Restore Defaults","")
 
 endEvent
