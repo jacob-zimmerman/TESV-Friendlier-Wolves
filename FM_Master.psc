@@ -27,7 +27,7 @@ scriptname FW_Master extends Quest
 
 Actor Property PlayerRef Auto
 
-Faction Property PlayerWerewolfFaction
+Faction Property PlayerWerewolfFaction Auto
 Faction Property WolfFaction Auto
 Faction Property WerewolfFaction Auto
 Faction Property VampireFaction Auto
